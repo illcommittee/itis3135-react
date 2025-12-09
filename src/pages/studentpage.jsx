@@ -338,7 +338,7 @@ function StudentCard({
 					<ul>
 						{s.courses.map((c) => (
 							<li key={c.code}>
-								<strong>{c.code}</strong> — {c.name}
+								<strong>{c.code}</strong> - {c.name}
 							</li>
 						))}
 					</ul>
@@ -395,7 +395,7 @@ function StudentCard({
 					<blockquote>
 						“{s.quote.text}”
 						{s.quote.author && (
-							<footer>— {s.quote.author}</footer>
+							<footer>- {s.quote.author}</footer>
 						)}
 					</blockquote>
 				</section>
